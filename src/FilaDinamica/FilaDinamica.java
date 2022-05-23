@@ -47,7 +47,7 @@ public class FilaDinamica {
     }
 
     public void add(Object valor) {
-        ElementoDaFila elemento = new ElementoDaFila(valor)
+        ElementoDaFila elemento = new ElementoDaFila(valor);
         
         if (isEmpty()) {
             cauda = elemento;
